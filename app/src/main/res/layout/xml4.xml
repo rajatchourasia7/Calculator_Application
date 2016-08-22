@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/xmlfile4"
+    android:layout_below="@id/xmlfile3">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="onClick4"
+        android:id="@+id/four"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="onClick5"
+        android:id="@+id/five"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="onClick6"
+        android:id="@+id/six"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="onClickmul"
+        android:id="@+id/mul"/>
+</LinearLayout>
